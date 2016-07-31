@@ -1,0 +1,199 @@
+/*****BASE STYLES*******/
+body {
+	font-family: 'Raleway', sans-serif;
+	background: black;
+}
+a:hover, a:active {
+    background-color: black;
+}
+/*****MAIN NAVIGATION****************/
+
+nav {
+	height: 150px;
+	width: 150px;
+	left: 60px;
+	top: 25px;
+	background-color: rgba(22,21,20,0.7);
+	position: absolute;
+	top: 2%;
+	left: 4%;
+}
+nav .menu a {
+	font-family: 'Playfair Display', serif;
+    display: inline-block;
+    padding: 3px 3px;
+    margin: 1px 5px;
+    color: #dfc1a7;
+    text-align: center;
+    text-decoration: none;
+    text-shadow:
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+}
+
+/*****HEADER SECTION****************/
+
+header {
+	height: 700px;
+    background: url('../img/yosemite/sentinals-yosemite.jpg');
+	background-size: 100% 100%;
+	Z-index: -1;
+}
+#industry {
+	height: 700px;
+    background: url('../img/industry/klondike-camp.jpg');
+	background-size: 100% 100%;
+	Z-index: -1;
+}
+#people {
+	background: url('../img/people/alaskian-sisters.jpg');
+	height: 700px;
+	background-size: 100% 100%;
+	Z-index: -1;
+}
+#yosemite {
+	background: url('../img/yosemite/yosemite-valley2.jpg');
+	height: 700px;
+	background-size: 100% 100%;
+	Z-index: -1;
+}
+#nypl {
+	background: url('../img/nypl.jpg');
+	height: 700px;
+	background-size: 100% 100%;
+	Z-index: -1;
+}
+.heading {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	background-color: rgba(22,21,20,0.7);
+    color: #e8e4e2;
+	width: 650px;
+	height: 200px;
+}
+.heading h1 {
+	color: #d0a37c;
+	font-weight: bold;
+	line-height: .15;
+	font-size: 38px;
+	padding-top: 5%;
+	padding-left: 10%;
+	border: 2px;
+	border-color: black;
+	font-family: 'Playfair Display', serif;
+}
+.heading h1 {
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+.heading p {
+	color: #dfc1a7;
+	padding-left: 10%;
+}
+
+
+
+/*****MAIN SECTION*****************/
+
+main {
+	background-color: #dfc1a7;
+	width: 100%;
+	height: 700px;
+	display: inline-block;
+}
+main .content {
+	/*position: relative;*/
+	/*float: left;*/
+	top: 3%;
+	left: 4%;
+	/*width: 65%;*/
+	overflow: auto;
+	color: black;
+	margin: 20px;
+	/*padding-left: 4%;*/
+	font-size: 18px;
+}
+
+main .content .one-column {
+	width: 95%;
+	padding-left: 3%;
+}
+
+main .content .two-column {
+	width: 60%;
+	padding-left: 2%;
+	display: inline-block;
+	/*float: left;*/
+	position: relative;
+}
+main .content h3 {
+	font-weight: bolder;
+}
+
+main .sidebar {
+	position: relative;
+	display: inline-block;
+	/*top: -3%;*/
+	/*float: right;*/
+	/*top: 3%;*/
+	/*left: 70%;*/
+	width: 30%;
+	margin: 3px 5px 10px 0px;
+	color: #736559;
+	font-size: 14px;
+	font-style: italic;
+	top: -490px;
+	left: 900px;
+}
+main ul {
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+}
+main li {
+	display: inline-block;
+	padding-left: 0px;
+	padding-right: 25px;
+}
+main li .nypl {
+	height: 40px;
+}
+main a:link, a:visited {
+    background-color: #737373;
+    width: 200px;
+    color: #f8f2ec;
+    /*color: #d0a37c;*/
+	/*font-weight: bold;*/
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+
+
+
+/******FOOTER SECTION*********/
+footer {
+	font-size: 12px;
+	text-align: center;
+	background-color: black;
+	height: 60px;
+	color: #dfc1a7;
+	padding-top: 20px;
+	padding-right: 10px;
+}
